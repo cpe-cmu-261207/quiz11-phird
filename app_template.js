@@ -17,11 +17,10 @@ compute.addEventListener("click", () => {
 
         const tr = document.createElement("tr");
         const tdOutput = document.createElement("td");
-        const input = inputNumber ;
         let id = 620610801 ;
         let Answer = 0 ;
         tdOutput.innerHTML = inputNumber.value;
-        console.log(input);
+        console.log(inputNumber);
         console.log(Answer);
         Answer = id - inputNumber ;
         console.log(Answer);
