@@ -9,7 +9,7 @@ compute.addEventListener("click", () => {
     console.log("i am in button");
     let id = 620610801 ;
     if (
-        inputNumber.value === 0
+        inputNumber.value === ""
     ) {
         alert("Please input Number !");
     }
@@ -20,7 +20,7 @@ compute.addEventListener("click", () => {
         tdOutput.innerHTML = inputNumber.value;
 
         tdAnswer.innerHTML = id - inputNumber.value ;
-        alert(tdAnswer)
+        console.log(tdAnswer);
     }
 } )
 
