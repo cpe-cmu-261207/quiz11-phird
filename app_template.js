@@ -6,7 +6,7 @@ const createTable = document.querySelector("#button-create-table");
 
 
 compute.addEventListener("click", () => {
-    alert("i am in button");
+    console.log("i am in button");
     let id = 620610801 ;
     if (
         inputNumber.value === 0
